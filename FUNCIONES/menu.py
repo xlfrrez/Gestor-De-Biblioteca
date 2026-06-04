@@ -2,11 +2,11 @@ from modelos.libro import Libro
 from modelos.usuario import Usuario
 from modelos.biblioteca import Biblioteca
 
-from funciones.reportes import *
-from funciones.validaciones import *
-from funciones.historial import *
-from funciones.estadisticas import *
-from funciones.Eliminar import *
+from FUNCIONES.reportes import *
+from FUNCIONES.validaciones import *
+from FUNCIONES.historial import *
+from FUNCIONES.estadisticas import *
+from FUNCIONES.Eliminar_libro import *
 
 
 def menu():
