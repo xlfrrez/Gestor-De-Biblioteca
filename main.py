@@ -1,3 +1,3 @@
-from funciones.menu import menu
+from FUNCIONES.menu import menu
 
 menu()
