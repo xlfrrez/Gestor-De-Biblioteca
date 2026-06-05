@@ -91,7 +91,7 @@ def menu():
 
     
      case "9":
-        eliminar_libro(biblioteca, input("Tutulo: "))
+        eliminar_libro(biblioteca, input("Titulo: "))
 
     
      case "10":
