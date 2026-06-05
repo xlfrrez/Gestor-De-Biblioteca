@@ -1,4 +1,4 @@
-def eliminar_libro(bibloteca, titulo):
+def eliminar_libro(biblioteca, titulo):
    for l in biblioteca.libros:
       if l.titulo.lower() == titulo.lower():
         biblioteca.libros.remove(l)
