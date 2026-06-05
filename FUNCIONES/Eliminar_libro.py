@@ -1,10 +1,10 @@
 def eliminar_libro(bibloteca, titulo):
-  for l in bibloteca.libros:
-    if if l.titulo.lower() == titulo.lower():
-      biblioteca.libros.remove(l)
-      print("Libro eliminado")
-      return
-print("No encontrado")
+   for l in bibloteca.libros:
+      if l.titulo.lower() == titulo.lower():
+        biblioteca.libros.remove(l)
+        print("Libro eliminado")
+        return
+   print("No encontrado")
 
 def eliminar_usuario(biblioteca, nombre):
     for u in biblioteca.usuarios:
