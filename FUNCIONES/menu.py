@@ -1,19 +1,19 @@
-from modelos.libro import Libro
-from modelos.usuario import Usuario
-from modelos.biblioteca import Biblioteca
+from MODELOS.libro import Libro
+from MODELOS.usuario import Usuario
+from MODELOS.biblioteca import Biblioteca
 
 from FUNCIONES.reportes import *
 from FUNCIONES.validaciones import *
 from FUNCIONES.historial import *
 from FUNCIONES.estadisticas import *
-from FUNCIONES.Eliminar_libro import *
+from FUNCIONES.eliminar import *
 
 
 def menu():
   biblioteca = Biblioteca()
 
   
-  while true:
+  while True:
     print("\n===== BIBLIOTECA =====")
     print("1. Agregar libro")
     print("2. Registrar usuario")
